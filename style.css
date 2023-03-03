@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
+  }
+  
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .divisor {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+  }
+  
+  .negrito {
+    font-weight: 800;
+  }
+  
+  .grande {
+    height: 10px;
+  }
+  
+  .grande, .medio {
+    background-color: black;
+    border: 0;
+  }
+  
+  .medio {
+    height: 5px;
+  }
+  
+  .texto-pequeno {
+    font-size: 0.85rem;
+  }
+  
+  
+  .info-calorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .info-calorias h2 {
+    margin: 0;
+  }
+  
+  .container-esquerda p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .info-calorias span {
+    margin: -7px -2px;
+    font-size: 2.4em;
+    font-weight: 700;
+  }
+  
+  .direita {
+    justify-content: flex-end;
+  }
+  
+  .recuar {
+    margin-left: 1em;
+  }
+  
+  .duplo-recuar {
+    margin-left: 2em;
+  }
+  
+  .valor-diario p:not(.sem-divisor) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  .obs {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-recuar:-8px;
+  }
